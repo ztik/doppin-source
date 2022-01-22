@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>dope for minecraft</title>
+    <base href="https://dopp.in/">
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="built to improve your aptitude. 👍">
+    <meta name="keywords" content="dope, dope clicker, doppin, dopp.in, clicker, autoclicker, minecraft autoclicker, minecraft clicker, best clicker, best autoclicker, minecraft best clicker, minecraft best autoclicker, doppin clicker, dopp.in clicker,">
+    <meta name="author" content="Double Star, Ltd.">
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo/logo-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo/logo-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo/logo-icon.png">
+    <link rel="mask-icon" color="#5bbad5" href="safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#766df4">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P2R5F78');
+    </script>
+    <!-- Page loading styles-->
+    <script>
+        (function() {
+            window.onload = function() {
+                var preloader = document.querySelector('.page-loading');
+                preloader.classList.remove('active');
+                setTimeout(function() {
+                    preloader.remove();
+                }, 2000);
+            };
+        })();
+    </script>
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" href="assets/css/home.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="assets/libs/simplebar/dist/simplebar.min.css" />
+    <link rel="stylesheet" media="screen" href="assets/libs/tiny-slider/dist/tiny-slider.css" />
+    <link rel="stylesheet" media="screen" href="assets/libs/lightgallery.js/dist/css/lightgallery.min.css" />
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+    <!-- Google Tag Manager-->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WKV3GT5');
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2R5F78" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Page loading spinner-->
+    <div class="page-loading active">
+        <div class="page-loading-inner">
+            <div class="page-spinner"></div><span>Loading...</span>
+        </div>
+    </div>
+    <main class="page-wrapper">
+        <!-- Navbar (Floating dark)-->
+        <header class="header navbar navbar-expand-lg navbar-light navbar-floating navbar-sticky" data-scroll-header data-fixed-element>
+            <div class="container px-0 px-xl-3">
+                <button class="navbar-toggler ms-n2 me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand flex-shrink-0 order-lg-1 mx-auto ms-lg-0 pe-lg-2 me-lg-4" href="">
+                    <img class="d-none d-lg-block" src="assets/img/logo/logo-text.png" alt="dope-logo" width="153">
+                    <img class="d-lg-none" src="assets/img/logo/logo-text.png" alt="dope-logo" width="153">
+                </a>
+                <div class="d-flex align-items-center order-lg-3 ms-lg-auto">
+                    <a class="nav-link-style fs-sm text-nowrap" href="login/"><i class="ai-user fs-xl me-2 align-middle"></i>Sign in</a>
+                    <a class="btn btn-primary ms-grid-gutter d-none d-lg-inline-block" href="register/">Sign up</a></div>
+                <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
+                    <div class="offcanvas-header navbar-shadow">
+                        <h5 class="mt-1 mb-0">Menu</h5>
+                        <button class="btn-close lead" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body justify-content-center">
+                        <!-- Menu-->
+                        <div class="collapse navbar-collapse order-lg-2 justify-content-center" id="navbarCollapse1">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active"><a class="nav-link" onclick="active(this)" href="home/#home" id="nav-home" data-scroll>Home</a></li>
+                                <li class="nav-item"><a class="nav-link" onclick="active(this)" href="home/#features" data-scroll>Features</a></li>
+                                <li class="nav-item"><a class="nav-link" onclick="active(this)" href="home/#why-us" data-scroll>Why us</a></li>
+                                <li class="nav-item"><a class="nav-link" onclick="active(this)" href="home/#pricing" data-scroll>Pricing</a></li>
+                                <li class="nav-item"><a class="nav-link" onclick="active(this)" href="home/#media" data-scroll>Media</a></li>
+                                <li class="nav-item"><a class="nav-link" onclick="active(this)" href="home/#questions" data-scroll>Questions</a></li>
+                                <li class="nav-item"><a class="nav-link" onclick="active(this)" href="home/#discord" data-scroll>Discord</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <!-- Page content-->
+        <!-- Hero-->
+        <section class="position-relative bg-faded-primary pt-7 pb-5 pb-md-6 pb-lg-7 overflow-hidden" id="home">
+            <div class="shape shape-bottom shape-curve bg-body">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
+                    <path fill="currentColor" d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
+                </svg>
+            </div>
+            <div class="container pt-4 pt-md-5 pt-lg-0">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-center text-lg-start">
+                        <span class="badge bg-danger">New</span>
+                        <span class="text-white-50 ml-1">Welcome to our new landing page.</span>
+                        <br/><br/>
+                        <h1 class="mb-3">above the clicker marketplace.</h1>
+                        <p class="fs-lg text-muted mb-4">built to improve your aptitude. 👍</p>
+                        <form class="d-flex pt-4 mx-auto mx-lg-0" style="max-width: 460px;">
+                            <button class="btn btn-success" type="submit">Get started</button>
+                        </form>
+                    </div>
+                    <div class="col-xl-7 col-lg-8 offset-xl-1 pt-lg-3">
+                        <div class="tns-carousel-wrapper bg-size-cover mx-auto pt-6 pb-2" style="max-width: 705px; background-image: url(img/demo/software-landing/slider/shap.png);"></div>
+                        <div class="position-relative">
+                        </div>
+                        <div>
+                            <div class="tns-carousel-inner" data-carousel-options="{&quot;mode&quot;: &quot;gallery&quot;, &quot;controls&quot;: false, &quot;nav&quot;: false, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 6000}">
+                                <div data-carousel-label="&lt;i class=&quot;ai-calendar&quot;&gt;&lt;/i&gt;&lt;span&gt;Team Scheduling&lt;/span&gt;"><img src="assets/img/logo/logo-icon-2.png" alt="logo-icon-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tns-carousel-pager pt-4 text-nowrap text-center mt-4">
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <!-- Features section #1-->
+        <section class="container py-5 py-md-6 py-lg-7" id="features">
+            <div class="row pt-2">
+                <div class="col-sm-4 mb-grid-gutter pb-1">
+                    <div class="mx-auto text-center" style="max-width: 278px;"><img class="d-inline-block mb-3" src="assets/img/icons/rocket.svg" alt="Simple" width="56">
+                        <h3 class="h5">advanced</h3>
+                        <p class="fs-sm mb-0">we support minecraft in its entirety while being fully external to work perfectly in all types of versions.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-grid-gutter pb-1">
+                    <div class="mx-auto text-center" style="max-width: 278px;"><img class="d-inline-block mb-3" src="assets/img/icons/inspector.svg" alt="Fast" width="56">
+                        <h3 class="h5">undetected</h3>
+                        <p class="fs-sm mb-0">our methods is providing you the most hidden experience in a autoclicker needed.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-grid-gutter pb-1">
+                    <div class="mx-auto text-center" style="max-width: 278px;"><img class="d-inline-block mb-3" src="assets/img/icons/imprint.svg" alt="Organized" width="67">
+                        <h3 class="h5">secure</h3>
+                        <p class="fs-sm mb-0">working with the latest technology to keep your data secure. Trust us. You are safe.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-grid-gutter pb-1">
+                    <div class="mx-auto text-center" style="max-width: 278px;"><img class="d-inline-block mb-3" src="assets/img/icons/trust.svg" alt="Simple" width="56">
+                        <h3 class="h5">reliability</h3>
+                        <p class="fs-sm mb-0">dope has been leading the autoclicker marketplace since 2020. Feel safe knowing we aren't falling.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-grid-gutter pb-1">
+                    <div class="mx-auto text-center" style="max-width: 278px;"><img class="d-inline-block mb-3" src="assets/img/icons/console.svg" alt="Fast" width="56">
+                        <h3 class="h5">continious updates</h3>
+                        <p class="fs-sm mb-0">our team will use their skills to keep dope undetectable. dope will always have new features as well as improvements on current features.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-grid-gutter pb-1">
+                    <div class="mx-auto text-center" style="max-width: 278px;"><img class="d-inline-block mb-3" src="assets/img/icons/money.svg" alt="Organized" width="67">
+                        <h3 class="h5">affordable</h3>
+                        <p class="fs-sm mb-0">our price is very affordable for the lovingly done job provided by our team. any type of people can get dope.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Split section (Video popup)-->
+        <section class="bg-secondary" id="why-us">
+            <div class="row g-0">
+                <div class="col-md-6 py-7 position-relative bg-size-cover order-md-2 overflow-hidden"><img class="d-block mx-auto" src="assets/img/illustration/world-illustration.svg" alt="Illustration" width="437"><span class="position-absolute top-0 start-0 w-100 h-100 bg-black" style="opacity: 35%;"></span>
+                    <div class="shape shape-left bg-secondary d-none d-md-block">
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-md-6 px-3 ps-xl-0 pe-lg-5 pe-xl-7 py-2 py-lg-4 order-md-1">
+                    <div class="ms-md-auto me-sm-7 py-5 my-sm-0 py-md-6 py-lg-7" style="max-width: 400px;">
+                        <h2 class="mb-3 pb-1">Trusted</h2>
+                        <p>dope has its place above all in the autoclicker marketplace since 2020, we have proven ourselves. Trusted by users all over the world.</p>
+                        <ul class="list-unstyled fs-sm">
+                            <li class="d-flex align-items-center"><i class="ai-check-circle text-success fs-lg me-2"></i><span>100% Satisfaction</span></li>
+                            <li class="d-flex align-items-center"><i class="ai-check-circle text-success fs-lg me-2"></i><span>4k+ Registered</span></li>
+                            <li class="d-flex align-items-center"><i class="ai-check-circle text-success fs-lg me-2"></i><span>70k+ Launches</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features section #2-->
+        <section class="container py-5 py-md-6 py-lg-7">
+            <div class="row align-items-center pt-3 pt-md-0">
+                <div class="col-md-7"><img class="d-block mx-auto" src="assets/img/illustration/accessibility-illustration.svg" alt="Features" width="700"></div>
+                <div class="col-xl-4 col-md-5 offset-xl-1 pt-5 pt-md-0">
+                    <h2 class="mb-3 text-center text-md-start">Accessibility</h2>
+                    <p class="text-center text-md-start">You have the ability to control everything that connects you to dope</p>
+                    <div class="row pt-5">
+                        <div class="col-6 pb-1 mb-grid-gutter"><img class="d-block mb-3" src="assets/img/icons/easy.svg" alt="Pleasant" width="29">
+                            <h3 class="h6">Pleasant</h3>
+                            <p class="fs-sm mb-0">It's always nice when everything is quick and easy to access.</p>
+                        </div>
+                        <div class="col-6 pb-1 mb-grid-gutter"><img class="d-block mb-3" src="assets/img/icons/guide.svg" alt="Guides" width="28">
+                            <h3 class="h6">Guides</h3>
+                            <p class="fs-sm mb-0">You have a screenshare guide and a module guide at your disposal.</p>
+                        </div>
+                        <div class="col-6 pb-1 mb-grid-gutter"><img class="d-block mb-3" src="assets/img/icons/support.svg" alt="Control schedule" width="26">
+                            <h3 class="h6">Support</h3>
+                            <p class="fs-sm mb-0">You can reach a member of our team through our support ticket system in the dashboard.</p>
+                        </div>
+                        <div class="col-6 pb-1 mb-grid-gutter"><img class="d-block mb-3" src="assets/img/icons/community.svg" alt="Mark tasks" width="36">
+                            <h3 class="h6">Community</h3>
+                            <p class="fs-sm mb-0">A community of 2500+ members is waiting for you on discord!.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing-->
+        <section class="pt-lg-3" id="pricing">
+            <h2 class="d-block bg-gradient text-light text-center py-5 px-3 mb-5">Pricing plans</h2>
+            <div class="container pt-2">
+                <div class="d-sm-flex align-items-center justify-content-center text-center text-sm-start">
+                    <h3 class="mb-4 mb-sm-2 me-sm-4 pe-sm-2">Affordable?</h3><a class="btn btn-success mb-sm-2" href="purchase/">Purchase</a>
+                </div>
+                <div class="row justify-content-center pt-5">
+                    <div class="col-lg-10">
+                        <div class="bg-light shadow-lg rounded-3 pt-3 px-4">
+                            <div class="pricing-wrap pt-3 px-3">
+                            </div>
+                            <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                                <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                                    <h3 class="mb-2">Monthly</h3>
+                                    <div class="fs-xs" style="max-width: 10rem;">You are paying for one month of dope clicker.</div>
+                                </div>
+                                <div class="d-flex w-100 align-items-end py-3 py-sm-2 px-4" style="max-width: 20rem;"><span class="h2 fw-normal text-muted mb-1 me-2">€</span><span class="price display-2 fw-normal text-primary px-1 me-2" data-current-price="0" data-new-price="0">4.99</span><span class="h3 fs-lg fw-medium text-muted mb-2">per<br>month</span></div>
+                                <ul class="list-unstyled py-2 mb-0">
+                                    <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-success me-2"></i><span>Screenshares/Servers Undetected</span></li>
+                                    <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-success me-2"></i><span>Working On All Minecraft Versions</span></li>
+                                    <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-success me-2"></i><span>Differents Click Sounds</span></li>
+                                    <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-x fs-xl text-danger me-2"></i><span>Lifetime</span></li>
+                                </ul>
+                            </div>
+                            <div class="d-md-flex align-items-start py-4 py-sm-5">
+                                <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                                    <h3 class="mb-2">Lifetime</h3>
+                                    <div class="fs-xs" style="max-width: 10rem;">You are paying for dope clicker lifetime.</div>
+                                </div>
+                                <div class="d-flex w-100 align-items-end py-3 py-sm-2 px-4" style="max-width: 20rem;"><span class="h2 fw-normal text-muted mb-1 me-2">€</span><span class="price display-2 fw-normal text-primary px-1 me-2" data-current-price="15" data-new-price="12">9.99</span><span class="h3 fs-lg fw-medium text-muted mb-2">lifetime<br></span></div>
+                                <ul class="list-unstyled py-2 mb-0">
+                                    <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-success me-2"></i><span>Screenshares/servers undetected</span></li>
+                                    <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-success me-2"></i><span>Working on all minecraft versions</span></li>
+                                    <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-success me-2"></i><span>Differents click sounds</span></li>
+                                    <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-success me-2"></i><span>Lifetime</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Solutions-->
+        <section class="container position-relative zindex-5 pt-5 pt-md-6 pt-lg-7" id="media">
+            <h2 class="text-center pt-3 pt-md-0 mb-5">Want to see more?</h2>
+            <div class="row">
+                <div class="col-sm-6 mb-grid-gutter">
+                    <div class="bg-light shadow rounded-3 py-5 px-4">
+                        <div class="d-block d-xl-flex align-items-center px-lg-3 py-xl-2 text-center text-sm-start"><img class="d-inline-block mb-3 mb-xl-0" src="assets/img/media/spookay.png" alt="long-video" width="140">
+                            <div class="ps-xl-3 ms-xl-3">
+                                <h3 class="h4 text-primary pb-1">Long presentation</h3>
+                                <p>A video made by Spookay that lasts 11:32 and presents completely dope. He also experiences the clicker in game while commenting the video from its beginning to the end.</p><a class="nav-link-style" href="#">Watch it<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-grid-gutter">
+                    <div class="bg-light shadow rounded-3 py-5 px-4">
+                        <div class="d-block d-xl-flex align-items-center px-lg-3 py-xl-2 text-center text-sm-start"><img class="d-inline-block mb-3 mb-xl-0" src="assets/img/media/jxkeh.png" alt="short-video" width="140">
+                            <div class="ps-xl-3 ms-xl-3">
+                                <h3 class="h4 text-primary pb-1">Short presentation</h3>
+                                <p>This video made by Jxkeh that lasts 0:34 and presents dope quickly. He also makes a demonstration in game with a little background music.</p><a class="nav-link-style" href="#">Watch it<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Q&A-->
+        <section class="position-relative bg-secondary py-5 py-md-6 py-lg-7" style="margin-top: -200px;">
+            <div style="height: 200px;"></div>
+            <div class="shape shape-top shape-curve bg-body">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
+                    <path fill="currentColor" d="M3000,185.4V0H0v185.4C496.4,69.8,996.4,12,1500,12S2503.6,69.8,3000,185.4z"></path>
+                </svg>
+            </div>
+            <div class="container mt-n4 py-3 py-md-2" id="questions">
+                <h2 class="text-center mb-5">Questions &amp; Answers</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-9">
+                        <div class="accordion" id="faq">
+
+                            <div class="accordion-item bg-white shadow">
+                                <h2 class="accordion-header" id="faq-heading-1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1" aria-expanded="true" aria-controls="faq-content-1">What operating systems does dope support?</button>
+                                </h2>
+                                <div class="accordion-collapse collapse" id="faq-content-1" aria-labelledby="faq-heading-1" data-bs-parent="#faq">
+                                    <div class="accordion-body">
+                                        <div class="fs-sm">dope is built and tested for Windows 10 64 bit system.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item bg-white shadow">
+                                <h2 class="accordion-header" id="faq-heading-2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2" aria-expanded="false" aria-controls="faq-content-2">Which minecraft versions is dope compatible with?</button>
+                                </h2>
+                                <div class="accordion-collapse collapse" id="faq-content-2" aria-labelledby="faq-heading-2" data-bs-parent="#faq">
+                                    <div class="accordion-body">
+                                        <div class="fs-sm">dope is supporting all actuals minecraft versions and modpack launchers.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item bg-white shadow">
+                                <h2 class="accordion-header" id="faq-heading-3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3" aria-expanded="false" aria-controls="faq-content-3"> Is dope attached to my IP address?</button>
+                                </h2>
+                                <div class="accordion-collapse collapse" id="faq-content-3" aria-labelledby="faq-heading-3" data-bs-parent="#faq">
+                                    <div class="accordion-body">
+                                        <div class="fs-sm">No, dope is not linked to your IP address. You can launch dope even with a VPN or Proxy.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item bg-white shadow">
+                                <h2 class="accordion-header" id="faq-heading-4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4" aria-expanded="false" aria-controls="faq-content-4">Is it possible to upload my own click sounds?</button>
+                                </h2>
+                                <div class="accordion-collapse collapse" id="faq-content-4" aria-labelledby="faq-heading-4" data-bs-parent="#faq">
+                                    <div class="accordion-body">
+                                        <div class="fs-sm">Yes, you are able to record and use your own click sounds.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA-->
+        <section class="bg-gradient py-5" id="discord">
+            <div class="container py-2 py-sm-4">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-md-7 mb-5 mb-md-0">
+                        <h2 class="text-light text-center text-md-start">Want to be closer to us?</h2>
+                        <p class="text-light mb-grid-gutter text-center text-md-start">You can now join our community Discord server.</p>
+                        <form class="row">
+                            <div class="col-lg-4 col-md-5 col-sm-4">
+                                <a class="btn btn-success d-block w-100" target="_blank" href="https://discord.com/invite/jRSHh5bJAF">Discord</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5 offset-xl-1"><img class="d-block mx-auto" src="assets/img/illustration/chat-illustration.svg" alt="Illustration" width="350"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer-->
+    <footer class="footer bg-dark pt-5 pb-4">
+        <div class="container pb-2 text-center text-md-start">
+            <div class="row justify-content-center pt-md-2 pb-3">
+                <div class="col-md-3 pb-4"><a class="d-inline-block mb-3" href="index.html" style="width: 153px;"><img src="assets/img/logo/logo-footer.png" alt="logo-footer"></a>
+                    <p class="fs-sm text-light opacity-50 mb-0">built to improve your aptitude.</p>
+                </div>
+                <div class="col-md-3 pt-2 pb-4">
+                    <div class="widget widget-light">
+                        <h4 class="widget-title mb-3">Business</h4>
+                        <div class="d-lg-flex">
+                            <ul class="me-lg-5">
+                                <li><a class="widget-link" href="/cdn-cgi/l/email-protection#335a5d42465a415a564073575c46515f561e404752411d5d5647"><i class="ai-mail fs-lg me-2"></i><span class="__cf_email__" data-cfemail="ed84839c98849f84889ead8982988f8188c09e998c9fc3838899">[email&#160;protected]</span></a></li>
+                            </ul>
+                            <ul>
+                                <!--<li><a class="widget-link" href="tel:0123456789"><i class="ai-phone fs-lg me-2"></i>012-345-6789</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 pt-2 pb-4">
+                    <div class="widget widget-light">
+                        <h4 class="widget-title mb-3">Connect with us.</h4>
+                        <a class="btn-social bs-outline bs-light bs-telegram bs-lg me-2 mb-2" href="https://t.me/dopealerts"><i class="ai-telegram"></i></a>
+                        <a class="btn-social bs-outline bs-light bs-twitter bs-lg me-2 mb-2" href="https://twitter.com/stilldoppin"><i class="ai-twitter"></i></a>
+                        <a class="btn-social bs-outline bs-light bs-link bs-lg me-2 mb-2" href="https://discord.gg/jRSHh5bJAF"><i class="ai-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="fs-sm text-center mb-0"><span class="text-light opacity-50">© All rights reserved. </span><a class="nav-link-style nav-link-light" href="https://double-star.net/" target="_blank" rel="noopener">Double Star, Ltd.</a></p>
+        </div>
+    </footer>
+    <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><i class="btn-scroll-top-icon ai-arrow-up">   </i></a>
+
+    <!-- Vendor scrits: js libraries and plugins-->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/dist/simplebar.min.js"></script>
+    <script src="assets/libs/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/libs/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="assets/libs/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <script src="assets/libs/lg-video.js/dist/lg-video.min.js"></script>
+    <!-- Main theme script-->
+    <script src="assets/js/theme.min.js"></script>
+    <script>
+        var old = document.getElementById("nav-home");
+
+        function active(b) {
+            old.classList.remove("active");
+            b.parentNode.classList.add("active");
+            old = b.parentNode;
+        }
+    </script>
+</body>
+
+</html>
